@@ -1,0 +1,6 @@
+# Backup that we're using to restore to sites
+/backup
+# Ansible retry files
+/*.retry
+# Variables files containing sensitive data
+private.yml
