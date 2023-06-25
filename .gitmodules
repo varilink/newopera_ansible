@@ -1,3 +1,9 @@
+# The WordPress repository for the New Opera Company website.
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:varilink/newopera-wordpress.git
+
+# Varilink's "Libraries - Ansible" repository for Ansible roles.
 [submodule "roles"]
 	path = roles
 	url = git@github.com:varilink/libraries-ansible.git
