@@ -7,3 +7,8 @@
 [submodule "roles"]
 	path = roles
 	url = git@github.com:varilink/libraries-ansible.git
+
+# Varilink's "Tools - GIMP" repository for theme image generation using GIMP.
+[submodule "tools/gimp"]
+	path = tools/gimp
+	url = git@github.com:varilink/tools-gimp.git
