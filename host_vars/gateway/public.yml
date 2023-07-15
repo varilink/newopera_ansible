@@ -1,0 +1,4 @@
+wordpress_sites:
+
+  - subdomain: staging
+    reverse_proxy_pass_port: 8086

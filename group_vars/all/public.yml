@@ -1,2 +1,9 @@
 domain_name: newoperaderby.org.uk
 domain_organisation: New Opera Company
+wordpress_site_plugins:
+  - src: ../wordpress/site-plugins/newopera-productions/
+    dest: newopera-productions/
+wordpress_site_themes:
+  - src: ../wordpress/theme/
+    dest: newopera-site/
+wordpress_site_version: "6.2.2"
