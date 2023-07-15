@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+
+  gimp:
+
+    volumes:
+      - ./wordpress/gimp/:/gimp/
+      - ./wordpress/theme/assets/img/:/gimp/dist/
+
