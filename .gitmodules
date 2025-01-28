@@ -1,19 +1,19 @@
-# The WordPress repository for the New Opera Company website.
-[submodule "wordpress"]
-	path = wordpress
-	url = git@github.com:varilink/newopera-wordpress.git
-
-# Varilink's "Libraries - Ansible Roles" repository for Ansible roles.
-[submodule "roles"]
-	path = roles
-	url = git@github.com:varilink/libraries-ansible.git
-
-# Varilink's "Libraries - Ansible Playbooks" repository for Ansible playbooks.
 [submodule "playbooks"]
 	path = playbooks
-	url = git@github.com:varilink/libraries-ansible_playbooks.git
+	url = git@github.com:varilink/libraries_ansible-playbooks.git
 
-# Varilink's "Tools - GIMP" repository for theme image generation using GIMP.
+[submodule "roles"]
+	path = roles
+	url = git@github.com:varilink/libraries_ansible-roles.git
+
 [submodule "tools/gimp"]
 	path = tools/gimp
-	url = git@github.com:varilink/tools-gimp.git
+	url = git@github.com:varilink/tools_gimp.git
+
+[submodule "tools/wordpress-restore"]
+	path = tools/wordpress-restore
+	url = git@github.com:varilink/tools_wordpress-restore.git
+
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:varilink/newopera_wordpress.git
