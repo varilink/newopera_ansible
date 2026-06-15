@@ -1,4 +1,10 @@
-wordpress_sites:
+# ------------------------------------------------------------------------------
+# inventory/host_vars/gateway/public.yml
+# ------------------------------------------------------------------------------
 
-  - subdomain: staging
-    reverse_proxy_pass_port: 8086
+---
+
+wp_subdomain: staging
+wp_admin_password: "{{ wp_priv_admin_password }}"
+wp_database_password: "{{ wp_priv_database_password }}"
+wp_reverse_proxy_pass_port: 8087
