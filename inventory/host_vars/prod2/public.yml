@@ -1,0 +1,19 @@
+# ------------------------------------------------------------------------------
+# inventory/host_vars/prod2/public.yml
+# ------------------------------------------------------------------------------
+
+---
+
+wp_sites:
+
+  preprod:
+
+    admin_password: "{{ wp_sites_priv['preprod'].admin_password }}"
+    database_password: "{{ wp_sites_priv['preprod'].database_password }}"
+    reverse_proxy_pass_port: 8080
+
+  www:
+
+    admin_password: "{{ wp_sites_priv['www'].admin_password }}"
+    database_password: "{{ wp_sites_priv['www'].database_password }}"
+    reverse_proxy_pass_port: 8081
